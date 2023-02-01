@@ -14,15 +14,10 @@ public class Delfino extends Animale  implements Nuotare{
 		System.out.println("pesce");
 	}
 	
-	public void faiNuotare(String animale) {
-		if(animale.equals(animale)){
-			this.nuota();
-		}
+	public void nuota() {
+		System.out.println("Il delfino sta nuotando");
 	}
 	
-	public void nuota() {
-		System.out.println("sto nuotando");
-	}
 	
 	
 	
