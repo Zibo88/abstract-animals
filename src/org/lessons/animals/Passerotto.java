@@ -1,6 +1,6 @@
 package org.lessons.animals;
 
-public class Passerotto extends Animale implements Movimento {
+public class Passerotto extends Animale implements Volare {
 
 
 	public void verso() {
@@ -18,8 +18,6 @@ public class Passerotto extends Animale implements Movimento {
 		System.out.println("questo animale vola");
 	}
 	
-	public void faiNuotare(String animale) {
-		System.out.println("questo animale nuota");
-	}
+	
 
 }
