@@ -15,7 +15,15 @@ public class Aquila extends Animale implements Volare {
 	}
 	
 	public void faiVolare(String animale) {
-		System.out.println("questo animale vola");
+		if(animale.equals(animale)){
+			this.vola();
+		}
+	}
+	
+	public void vola() {
+		
+			System.out.println("sto volando");
+		
 	}
 	
 	
