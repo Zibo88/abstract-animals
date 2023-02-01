@@ -1,5 +1,6 @@
 package org.lessons.animals;
 
 public interface Nuotare {
-	void faiNuotare(String animale);
+	static void faiNuotare() {
+	}
 }
