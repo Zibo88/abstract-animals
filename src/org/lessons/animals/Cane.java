@@ -14,14 +14,8 @@ public class Cane extends Animale implements Nuotare {
 		System.out.println("croccantini");
 	}
 	
-	public void faiNuotare(String animale) {
-		if(animale.equals(animale)){
-			this.nuota();
-		}
-	}
-	
 	public void nuota() {
-		System.out.println("sto nuotando");
+		System.out.println("Il cane sta nuotando");
 	}
 	
 
