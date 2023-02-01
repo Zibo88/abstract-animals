@@ -13,16 +13,9 @@ public class Passerotto extends Animale implements Volare {
 		System.out.println("mais");
 	}
 	
-//	richiamo un metodo della stessa classe
-	public void faiVolare(String animale) {
-		if(animale.equals(animale)){
-			this.vola();
-		}
-	}
 	
 	public void vola() {
-			System.out.println("sto volando");
-		
+		System.out.println("Il passerotto sta volando");
 	}
 	
 	
